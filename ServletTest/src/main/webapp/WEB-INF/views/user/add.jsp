@@ -10,9 +10,10 @@
 	
 	
 	<form action="add" method="post" enctype="application/x-www-form-urlencoded">
-		<label>Name</label><input type="text" name="name" value="">
-		<label>Email</label><input type="email" name="email" value="">
-		<input type="submit" value="SEND">
+		ID: <input type="text" name="userId" value=""><br>
+		NAME: <input type="text" name="name" value="" ><br>
+		EMAIL: <input type="text" name="email" value=""><br>
+		<input type="submit" value="SUBMIT">
 	</form>
 	
 	
